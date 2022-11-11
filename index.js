@@ -37,14 +37,14 @@ client.on("ready", () => {
     client.channels.cache.find(i => i.id === '1032751197838381097').send({ embeds: [embed]});
   
     
-    const guild = client.guilds.cache.get("971820242416324668")
-     client.channels.cache.get("1032293457580003348").edit({ 
+    const guild = client.guilds.cache.get("732625175610261574")
+     client.channels.cache.get("1028703222111682570").edit({ 
             name: `👥・Members: ${guild.memberCount}`
         })
 })
 
 client.on("guildMemberAdd", (member) => {
-    client.channels.cache.get("1032293457580003348").edit({
+    client.channels.cache.get("1028703222111682570").edit({
         name: `👥・Members: ${member.guild.memberCount}`
     })
 })
