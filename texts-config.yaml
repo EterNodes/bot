@@ -2,7 +2,7 @@ ticket_panel:
     title: "Ouvrir Un Ticket"
     description: "Merci d’ouvrir un ticket que si la présence du support est obligatoire. Sinon, merci de vous rendre dans le <#1019662752651952219>"
     color: "#303030"
-    footer: "LiteHeberg | Bot made by 0xyToan"
+    footer: "Eternodes | Bot made by 0xyToan"
     buttons:
         open_ticket: "Ouvrir un ticket"
         open_ticket_style: "PRIMARY" # Don't modify this if you don't known what you are doing
@@ -12,7 +12,7 @@ in_tickets:
     title: "Ticket"
     description: "move dans index.js"
     color: "#303030"
-    footer: "LiteHeberg | Bot made by 0xyToan"
+    footer: "Eternodes | Bot made by 0xyToan"
     buttons:
         close_ticket: "Close the ticket"
         close_ticket_style: "DANGER" # Don't modify this if you don't known what you are doing
